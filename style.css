@@ -14,7 +14,7 @@ body {
 
 /* header */
 header {
-    margin-top: 70px;
+    margin-top: 30px;
     text-align: center;
 }
 
@@ -78,6 +78,10 @@ button[type="submit"]:hover {
 
 /* media queries */
 @media only screen and (max-width: 600px) {
+    header {
+        margin-top: 20px;
+    }
+
     section {
         margin-top: -110px;
     }
